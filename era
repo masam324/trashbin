@@ -28,7 +28,7 @@ eraser() {
 		mv $1 $sot$2	
 	fi
 }
-executer() {
+executor() {
 	#mv $@ ~/.Trash_tmp/
 	for count in $@; do
 		export ofn=""
@@ -58,5 +58,5 @@ namechanger() {
 	matchchecker $checklater
 }
 
-executer $@
+executor $@
 
