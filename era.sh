@@ -4,7 +4,7 @@
 export sot=""
 
 matchchecker() {
-	searched=`ls $sot`
+	searched=`ls -a $sot`
 	for count in $searched; do
 		#matched=`echo $1 | grep ^$count$`
 		if [ "$1" = "$count" ]; then
