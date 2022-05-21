@@ -1,6 +1,8 @@
 #!/bin/bash
 
-absoluteTrashPath='/Users/masam/Trash'
+#ゴミ箱の絶対パス
+absoluteTrashPath=''
+#ゴミ箱に保存する際の区切り文字
 devideCharacter='~'
 
 initiate(){
